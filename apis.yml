@@ -1,22 +1,84 @@
 aid: knowable
 name: Knowable
-description: Knowable is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Knowable was a mobile audio-learning company that united world-class
+  experts, thinkers, and storytellers to produce structured audio courses for curious
+  minds — an "audio courses" take on online learning delivered as serialized lessons
+  rather than one-off podcasts. Founded by the Bit Kitchen team and backed by Andreessen
+  Horowitz (a16z led its round in May 2019), Knowable published expert-led course
+  series across business, creativity, and personal development. The company is no
+  longer operational: knowable.fyi now serves a tombstone notice stating that Knowable
+  has been acquired by Medium and directing former listeners to Medium.com. Knowable
+  never published a public developer program, API, SDKs, or developer documentation,
+  and its GitHub organization (bitkitchen) exposes no public repositories. This
+  profile is retained in the API Evangelist network as a historical company record
+  from the a16z portfolio; there is no live API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/knowable/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d1lamhf6l6yk6d.cloudfront.net/uploads/2024/10/logo_0011E00001ialOJ-20230418003432.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-acquired-by: Medium
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Audio
+- Learning
+- Education
+- Media
+- Podcasting
+- Online Courses
+- Consumer
+- Defunct
+- a16z Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/knowable-domain-security.yml
+- type: Website
+  url: https://knowable.fyi/
+- type: GitHubOrganization
+  url: https://github.com/bitkitchen
+- type: LinkedIn
+  url: https://www.linkedin.com/company/19118465
+- type: Twitter
+  url: https://twitter.com/knowablefyi
+- type: Facebook
+  url: https://facebook.com/knowablefyi
+- type: Investor
+  url: https://a16z.com/companies/knowable/
+- type: Announcement
+  name: a16z — Knowable and audio startups
+  url: https://a16z.com/announcement/knowable-and-audio-startups/
+- type: Lifecycle
+  name: Knowable service lifecycle (defunct, acquired by Medium)
+  url: lifecycle/knowable-lifecycle.yml
+- type: LLMsTxt
+  name: Knowable llms.txt
+  url: llms/knowable-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
