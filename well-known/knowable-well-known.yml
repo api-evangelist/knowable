@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://knowable.fyi/
+host: https://knowable.fyi
+note: >-
+  Probed on 2026-07-19. Knowable is defunct and knowable.fyi serves only a
+  static tombstone page; every discovery path returns 403 (the static host
+  denies any path it does not serve). No .well-known documents, llms.txt, or
+  OpenAPI were found. Recorded for audit — no WellKnown/SecurityTxt pointer
+  is wired into apis.yml because no document was retrieved.
+documents:
+- path: /.well-known/security.txt
+  status: 403
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403
+- path: /llms.txt
+  status: 403
+- path: /openapi.json
+  status: 403

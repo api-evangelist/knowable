@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://knowable.fyi/
+status: defunct
+summary: >-
+  Knowable is no longer operational. The knowable.fyi homepage serves a
+  tombstone notice stating the company has been acquired by Medium and
+  directing former users to Medium.com. No API, developer portal, status
+  page, versioning policy, or deprecation policy was ever published, so
+  there is no API lifecycle to record — only the end-of-service notice.
+service:
+  operational: false
+  end_of_service_notice: https://knowable.fyi/
+  notice_text: >-
+    Knowable has been acquired by Medium. Knowable is no longer operational,
+    we're grateful for the support you've given us over the years. For more
+    human stories and ideas, please visit Medium.com. - The Knowable team
+  successor: https://medium.com
+  acquirer: Medium
+investor_record:
+  firm: a16z
+  url: https://a16z.com/companies/knowable/
+  initial_funding_date: '2019-05'
+  stage: M&A
+  acquirer: Medium
+versioning: null
+deprecation: null
+sla: null
+status_page: null
+deprecated_operations: []
+evidence:
+- source: https://knowable.fyi/
+  status: 200
+  observed: tombstone notice — "Knowable has been acquired by Medium"
+- source: https://a16z.com/portfolio/
+  status: 200
+  observed: portfolio record lists stage "M&A", acquirer "Medium", web https://knowable.fyi
+- source: https://github.com/orgs/bitkitchen/repositories
+  status: 200
+  observed: no public repositories in the organization

@@ -1,0 +1,26 @@
+# Knowable
+
+> Knowable was a mobile audio-learning company that produced expert-led audio courses for curious minds. Backed by Andreessen Horowitz (a16z, May 2019). **The company is no longer operational** — knowable.fyi serves a notice that Knowable has been acquired by Medium. Knowable never published a public API, developer portal, SDKs, or developer documentation. This record exists as a historical company profile in the API Evangelist network.
+
+## Status
+
+- [End-of-service notice](https://knowable.fyi/): "Knowable has been acquired by Medium. Knowable is no longer operational." Visitors are directed to Medium.
+- [Medium](https://medium.com): successor destination named in the notice.
+
+## APIs
+
+None. Knowable published no public API, no OpenAPI/AsyncAPI definition, no SDKs, and no developer documentation. Its GitHub organization ([bitkitchen](https://github.com/bitkitchen)) has no public repositories.
+
+## Company
+
+- [a16z portfolio record](https://a16z.com/companies/knowable/): stage M&A, acquirer Medium, initial funding May 2019.
+- [a16z announcement — Knowable and audio startups](https://a16z.com/announcement/knowable-and-audio-startups/)
+- [LinkedIn](https://www.linkedin.com/company/19118465)
+- [X / Twitter](https://twitter.com/knowablefyi)
+- [Facebook](https://facebook.com/knowablefyi)
+
+## Artifacts in this repo
+
+- [lifecycle/knowable-lifecycle.yml](lifecycle/knowable-lifecycle.yml): end-of-service record and evidence.
+- [security/knowable-domain-security.yml](security/knowable-domain-security.yml): probed TLS/DNS posture of knowable.fyi.
+- [well-known/knowable-well-known.yml](well-known/knowable-well-known.yml): discovery-path probe results (all 403; no documents published).
