@@ -33,7 +33,7 @@ x-tier: stub
 x-tier-reason: defunct-no-api-surface
 x-status: defunct
 x-acquired-by: Medium
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
