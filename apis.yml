@@ -13,6 +13,9 @@ description: 'Knowable was a mobile audio-learning company that united world-cla
   profile is retained in the API Evangelist network as a historical company record
   from the a16z portfolio; there is no live API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/knowable/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Knowable never published a public developer program, API, SDKs, or developer documentation, and its GitHub organization (bitkitchen) exposes no public repositories."
 deliveryModel:
   model: unknown
   open_source: false
